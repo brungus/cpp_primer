@@ -1,0 +1,41 @@
+[
+ {
+  "directory": "/home/gorb/projects/cpp",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-g",
+   "-c",
+   "-o",
+   "main.o",
+   "main.cpp"
+  ],
+  "file": "main.cpp"
+ },
+ {
+  "directory": "/home/gorb/projects/cpp",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-g",
+   "-c",
+   "-o",
+   "Person.o",
+   "Person.cpp"
+  ],
+  "file": "Person.cpp"
+ },
+ {
+  "directory": "/home/gorb/projects/cpp",
+  "arguments": [
+   "g++",
+   "-Wall",
+   "-g",
+   "-c",
+   "-o",
+   "Sales_data.o",
+   "Sales_data.cpp"
+  ],
+  "file": "Sales_data.cpp"
+ }
+]

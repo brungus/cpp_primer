@@ -1,0 +1,23 @@
+
+
+
+#vpath %.h include
+#OBJS = main.o Person.o Sales_data.o
+
+#all : run
+
+#run : main.o Sales_data.o Person.o
+	#g++ $^ -o $@
+
+#Person.o : Person.cpp Person.h
+	#g++ -c $< -o $@
+
+#Sales_data.o : Sales_data.cpp Sales_data.h
+	#g++ -c $< -o $@
+
+#main.o : main.cpp Sales_data.h Person.h
+	#g++ -c $< -o $@
+
+#.PHONY : clean
+#clean :
+	#rm -f run $(OBJS)

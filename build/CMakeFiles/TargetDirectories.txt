@@ -1,0 +1,3 @@
+/home/gorb/projects/cpp/build/CMakeFiles/rebuild_cache.dir
+/home/gorb/projects/cpp/build/CMakeFiles/edit_cache.dir
+/home/gorb/projects/cpp/build/CMakeFiles/prog.dir

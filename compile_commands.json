@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/gorb/projects/cpp/build",
+  "command": "/usr/bin/c++  -I/home/gorb/projects/cpp/./include -I/home/gorb/projects/cpp/./src  -o CMakeFiles/run.dir/src/main.cpp.o -c /home/gorb/projects/cpp/src/main.cpp",
+  "file": "/home/gorb/projects/cpp/src/main.cpp"
+},
+{
+  "directory": "/home/gorb/projects/cpp/build",
+  "command": "/usr/bin/c++  -I/home/gorb/projects/cpp/./include -I/home/gorb/projects/cpp/./src  -o CMakeFiles/run.dir/src/Person.cpp.o -c /home/gorb/projects/cpp/src/Person.cpp",
+  "file": "/home/gorb/projects/cpp/src/Person.cpp"
+},
+{
+  "directory": "/home/gorb/projects/cpp/build",
+  "command": "/usr/bin/c++  -I/home/gorb/projects/cpp/./include -I/home/gorb/projects/cpp/./src  -o CMakeFiles/run.dir/src/Sales_data.cpp.o -c /home/gorb/projects/cpp/src/Sales_data.cpp",
+  "file": "/home/gorb/projects/cpp/src/Sales_data.cpp"
+}
+]
