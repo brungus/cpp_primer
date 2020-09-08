@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    if (true)
+    if (false)
     {
         Person me("Mason", "Old Romney Rd");
         printPerson(cout, me) << endl;
@@ -178,6 +178,8 @@ int main(int argc, char *argv[])
         //oldBitch.changeName("Gretzel"); // illegal; can only access const functions
         oldBitch.getName(); // okay
     }
+
+    cout << "I did this shit on my laptop!" << endl;
 
 
     return EXIT_SUCCESS;
