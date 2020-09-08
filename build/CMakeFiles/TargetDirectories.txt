@@ -1,3 +1,0 @@
-/home/gorp/projects/cpp_primer/build/CMakeFiles/rebuild_cache.dir
-/home/gorp/projects/cpp_primer/build/CMakeFiles/edit_cache.dir
-/home/gorp/projects/cpp_primer/build/CMakeFiles/prog.dir

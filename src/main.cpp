@@ -4,6 +4,7 @@
 #include <cassert>
 #include "Sales_data.h"
 #include "Person.h"
+#include "Screen.h"
 
 using std::cout;
 using std::cin;
@@ -179,8 +180,11 @@ int main(int argc, char *argv[])
         oldBitch.getName(); // okay
     }
 
-    cout << "I did this shit on my laptop!" << endl;
-
+    Screen myScreen(4,5);
+    myScreen.set('F').display(cout);
+    cout << endl;
+    myScreen.move(2, 2).set('U').display(cout);
+    cout << endl;
 
     return EXIT_SUCCESS;
 }
