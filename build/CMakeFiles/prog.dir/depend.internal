@@ -3,11 +3,11 @@
 
 CMakeFiles/prog.dir/src/Person.cpp.o
  ../include/Person.h
- /home/gorb/projects/cpp/src/Person.cpp
+ /home/gorp/projects/cpp_primer/src/Person.cpp
 CMakeFiles/prog.dir/src/Sales_data.cpp.o
  ../include/Sales_data.h
- /home/gorb/projects/cpp/src/Sales_data.cpp
+ /home/gorp/projects/cpp_primer/src/Sales_data.cpp
 CMakeFiles/prog.dir/src/main.cpp.o
  ../include/Person.h
  ../include/Sales_data.h
- /home/gorb/projects/cpp/src/main.cpp
+ /home/gorp/projects/cpp_primer/src/main.cpp

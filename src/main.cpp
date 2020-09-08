@@ -156,7 +156,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    if (false)
+    if (true)
     {
         Person me("Mason", "Old Romney Rd");
         printPerson(cout, me) << endl;

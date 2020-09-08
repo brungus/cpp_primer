@@ -18,13 +18,7 @@ iostream
 string
 -
 
-/home/gorb/projects/cpp/src/Sales_data.cpp
-iostream
--
-Sales_data.h
-/home/gorb/projects/cpp/src/Sales_data.h
-
-/home/gorb/projects/cpp/src/main.cpp
+/home/gorp/projects/cpp_primer/src/main.cpp
 initializer_list
 -
 iostream
@@ -34,7 +28,7 @@ string
 cassert
 -
 Sales_data.h
-/home/gorb/projects/cpp/src/Sales_data.h
+/home/gorp/projects/cpp_primer/src/Sales_data.h
 Person.h
-/home/gorb/projects/cpp/src/Person.h
+/home/gorp/projects/cpp_primer/src/Person.h
 

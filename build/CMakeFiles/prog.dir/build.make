@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gorb/projects/cpp
+CMAKE_SOURCE_DIR = /home/gorp/projects/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gorb/projects/cpp/build
+CMAKE_BINARY_DIR = /home/gorp/projects/cpp_primer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/prog.dir/depend.make
@@ -78,42 +78,42 @@ include CMakeFiles/prog.dir/flags.make
 
 CMakeFiles/prog.dir/src/main.cpp.o: CMakeFiles/prog.dir/flags.make
 CMakeFiles/prog.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorb/projects/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/main.cpp.o -c /home/gorb/projects/cpp/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorp/projects/cpp_primer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/prog.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/main.cpp.o -c /home/gorp/projects/cpp_primer/src/main.cpp
 
 CMakeFiles/prog.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorb/projects/cpp/src/main.cpp > CMakeFiles/prog.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorp/projects/cpp_primer/src/main.cpp > CMakeFiles/prog.dir/src/main.cpp.i
 
 CMakeFiles/prog.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorb/projects/cpp/src/main.cpp -o CMakeFiles/prog.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorp/projects/cpp_primer/src/main.cpp -o CMakeFiles/prog.dir/src/main.cpp.s
 
 CMakeFiles/prog.dir/src/Person.cpp.o: CMakeFiles/prog.dir/flags.make
 CMakeFiles/prog.dir/src/Person.cpp.o: ../src/Person.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorb/projects/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Person.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Person.cpp.o -c /home/gorb/projects/cpp/src/Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorp/projects/cpp_primer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/prog.dir/src/Person.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Person.cpp.o -c /home/gorp/projects/cpp_primer/src/Person.cpp
 
 CMakeFiles/prog.dir/src/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/Person.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorb/projects/cpp/src/Person.cpp > CMakeFiles/prog.dir/src/Person.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorp/projects/cpp_primer/src/Person.cpp > CMakeFiles/prog.dir/src/Person.cpp.i
 
 CMakeFiles/prog.dir/src/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/Person.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorb/projects/cpp/src/Person.cpp -o CMakeFiles/prog.dir/src/Person.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorp/projects/cpp_primer/src/Person.cpp -o CMakeFiles/prog.dir/src/Person.cpp.s
 
 CMakeFiles/prog.dir/src/Sales_data.cpp.o: CMakeFiles/prog.dir/flags.make
 CMakeFiles/prog.dir/src/Sales_data.cpp.o: ../src/Sales_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorb/projects/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prog.dir/src/Sales_data.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Sales_data.cpp.o -c /home/gorb/projects/cpp/src/Sales_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gorp/projects/cpp_primer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/prog.dir/src/Sales_data.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/prog.dir/src/Sales_data.cpp.o -c /home/gorp/projects/cpp_primer/src/Sales_data.cpp
 
 CMakeFiles/prog.dir/src/Sales_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/prog.dir/src/Sales_data.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorb/projects/cpp/src/Sales_data.cpp > CMakeFiles/prog.dir/src/Sales_data.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/gorp/projects/cpp_primer/src/Sales_data.cpp > CMakeFiles/prog.dir/src/Sales_data.cpp.i
 
 CMakeFiles/prog.dir/src/Sales_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/prog.dir/src/Sales_data.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorb/projects/cpp/src/Sales_data.cpp -o CMakeFiles/prog.dir/src/Sales_data.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/gorp/projects/cpp_primer/src/Sales_data.cpp -o CMakeFiles/prog.dir/src/Sales_data.cpp.s
 
 # Object files for target prog
 prog_OBJECTS = \
@@ -129,7 +129,7 @@ prog: CMakeFiles/prog.dir/src/Person.cpp.o
 prog: CMakeFiles/prog.dir/src/Sales_data.cpp.o
 prog: CMakeFiles/prog.dir/build.make
 prog: CMakeFiles/prog.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gorb/projects/cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable prog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gorp/projects/cpp_primer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable prog"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/prog.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -142,6 +142,6 @@ CMakeFiles/prog.dir/clean:
 .PHONY : CMakeFiles/prog.dir/clean
 
 CMakeFiles/prog.dir/depend:
-	cd /home/gorb/projects/cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gorb/projects/cpp /home/gorb/projects/cpp /home/gorb/projects/cpp/build /home/gorb/projects/cpp/build /home/gorb/projects/cpp/build/CMakeFiles/prog.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/gorp/projects/cpp_primer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gorp/projects/cpp_primer /home/gorp/projects/cpp_primer /home/gorp/projects/cpp_primer/build /home/gorp/projects/cpp_primer/build /home/gorp/projects/cpp_primer/build/CMakeFiles/prog.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/prog.dir/depend
 

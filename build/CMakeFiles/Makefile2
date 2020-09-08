@@ -63,10 +63,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/gorb/projects/cpp
+CMAKE_SOURCE_DIR = /home/gorp/projects/cpp_primer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gorb/projects/cpp/build
+CMAKE_BINARY_DIR = /home/gorp/projects/cpp_primer/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -93,14 +93,14 @@ clean: CMakeFiles/prog.dir/clean
 CMakeFiles/prog.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prog.dir/build.make CMakeFiles/prog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gorb/projects/cpp/build/CMakeFiles --progress-num=1,2,3,4 "Built target prog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/gorp/projects/cpp_primer/build/CMakeFiles --progress-num=1,2,3,4 "Built target prog"
 .PHONY : CMakeFiles/prog.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/prog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gorb/projects/cpp/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gorp/projects/cpp_primer/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/prog.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gorb/projects/cpp/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gorp/projects/cpp_primer/build/CMakeFiles 0
 .PHONY : CMakeFiles/prog.dir/rule
 
 # Convenience name for target.

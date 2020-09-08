@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gorb/projects/cpp/./include -I/home/gorb/projects/cpp/./src
+CXX_INCLUDES = -I/home/gorp/projects/cpp_primer/./include -I/home/gorp/projects/cpp_primer/./src
 
 CXX_FLAGS = 
 

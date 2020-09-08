@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gorb/projects/cpp/src/Person.cpp" "/home/gorb/projects/cpp/build/CMakeFiles/prog.dir/src/Person.cpp.o"
-  "/home/gorb/projects/cpp/src/Sales_data.cpp" "/home/gorb/projects/cpp/build/CMakeFiles/prog.dir/src/Sales_data.cpp.o"
-  "/home/gorb/projects/cpp/src/main.cpp" "/home/gorb/projects/cpp/build/CMakeFiles/prog.dir/src/main.cpp.o"
+  "/home/gorp/projects/cpp_primer/src/Person.cpp" "/home/gorp/projects/cpp_primer/build/CMakeFiles/prog.dir/src/Person.cpp.o"
+  "/home/gorp/projects/cpp_primer/src/Sales_data.cpp" "/home/gorp/projects/cpp_primer/build/CMakeFiles/prog.dir/src/Sales_data.cpp.o"
+  "/home/gorp/projects/cpp_primer/src/main.cpp" "/home/gorp/projects/cpp_primer/build/CMakeFiles/prog.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
