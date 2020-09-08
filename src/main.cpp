@@ -12,6 +12,7 @@ using std::string;
 using std::begin;
 using std::end;
 
+
 int main(int argc, char *argv[])
 {
     // ex. 7.1 pg 335
