@@ -1,8 +1,23 @@
-#ifndef SCREEN_H
-#define SCREEN_H
 
 #include <iostream>
-#include "Window_mgr.h"
+#include <string>
+#include <vector>
+
+class Screen;
+
+class Window_mgr
+{
+    public:
+        // location ID for each screen on the window
+        using ScreenIndex = std::vector<Screen>::size_type;
+        // reset the screen at the given position to all blanks
+        void clear(ScreenIndex);
+    private:
+        // Screens this Window_mgr is tracking
+        // by default, a Window_mgr has one standard sized blank Screen
+        std::vector<Screen> screens;
+};
+
 
 class Screen {
     friend void Window_mgr::clear(ScreenIndex);
@@ -29,9 +44,6 @@ class Screen {
         const Screen &display(std::ostream &os) const
                         { do_display(os); return *this; }
 
-        // ex. 7.33 pg 368
-        pos size() const;
-
     private:
         void do_display(std::ostream &os) const { os << contents; }
 
@@ -53,10 +65,23 @@ inline Screen &Screen::set(pos row, pos col, char ch)
     return *this;
 }
 
-// ex. 7.33 pg 368
-//Screen::pos Screen::size() const
-//{
-    //return height * width;
-//}
+Screen &Screen::move(pos r, pos c)
+{
+    pos row = r * width;
+    cursor = row + c;
+    return *this;
+}
 
-#endif
+char Screen::get(pos r, pos c) const
+{
+    pos row = r * width;
+    return contents[row + c];
+}
+
+void Window_mgr::clear(ScreenIndex i)
+{
+    // s is a reference to the Screen we want to clear
+    Screen &s = screens[i];
+    // reset the contents of that Screen to all blanks
+    s.contents = std::string(s.height * s.width, ' ');
+}

@@ -5,6 +5,7 @@
 #include "Sales_data.h"
 #include "Person.h"
 #include "Screen.h"
+#include "Window_mgr.h"
 
 using std::cout;
 using std::cin;
@@ -180,11 +181,11 @@ int main(int argc, char *argv[])
         oldBitch.getName(); // okay
     }
 
-    Screen myScreen(4,5);
-    myScreen.set('F').display(cout);
-    cout << endl;
-    myScreen.move(2, 2).set('U').display(cout);
-    cout << endl;
+    Screen myScreen(5, 5, 'X');
+    myScreen.move(4, 0).set('#').display(cout);
+    cout << "\n";
+    myScreen.display(cout);
+    cout << "\n";
 
     return EXIT_SUCCESS;
 }

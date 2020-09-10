@@ -11,6 +11,6 @@ project( cpp_primer )
 # include
 include_directories( ./include ./src )
 
-add_executable( prog ./src/main.cpp ./src/Person.cpp ./src/Sales_data.cpp ./src/Screen.cpp )
+add_executable( prog ./src/main.cpp ./src/Person.cpp ./src/Sales_data.cpp ./src/Screen.cpp ./src/Window_mgr.cpp )
 
 set( CMAKE_EXPORT_COMPILE_COMMANDS ON )
