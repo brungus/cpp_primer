@@ -2,10 +2,10 @@
 #include "Sales_data.h"
 
 // ex. 7.12 pg 347, moved to body of Sales_data class
-Sales_data::Sales_data(std::istream &is)
-{
-    read(is, *this);
-}
+//Sales_data::Sales_data(std::istream &is)
+//{
+    //read(is, *this);
+//}
 
 Sales_data &Sales_data::combine(const Sales_data &item)
 {

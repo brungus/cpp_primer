@@ -2,10 +2,12 @@
 #include <iostream>
 #include <string>
 #include <cassert>
+#include <vector>
 #include "Sales_data.h"
 #include "Person.h"
 #include "Screen.h"
 #include "Window_mgr.h"
+#include "ex7-43.h"
 
 using std::cout;
 using std::cin;
@@ -13,6 +15,7 @@ using std::endl;
 using std::string;
 using std::begin;
 using std::end;
+using std::vector;
 
 
 int main(int argc, char *argv[])
@@ -181,11 +184,78 @@ int main(int argc, char *argv[])
         oldBitch.getName(); // okay
     }
 
-    Screen myScreen(5, 5, 'X');
-    myScreen.move(4, 0).set('#').display(cout);
-    cout << "\n";
-    myScreen.display(cout);
-    cout << "\n";
+    if (false)
+    {
+        Screen myScreen(5, 5, 'X');
+        myScreen.move(4, 0).set('#').display(cout);
+        cout << "\n";
+        myScreen.display(cout);
+        cout << "\n";
+    }
+
+    if (false)
+    {
+        // ex. 7.41 pg 379
+        cout << "sd1:" << endl;
+        Sales_data sd1;
+        // default initialized, delegated to 3 variable constructor
+        // Expected ouput:
+        //      Sales_data(const std::string &s, unsigned n, double p)
+        //      Sales_data()
+        cout << endl;
+
+        cout << "sd2:" << endl;
+        Sales_data sd2("ass");
+        //      Sales_data(const std::string &s, unsigned n, double p)
+        //      Sales_data(const std::string &s)
+        cout << endl;
+
+        cout << "sd3:" << endl;
+        Sales_data sd3("butts", 4);
+        //      Sales_data(const std::string &s, unsigned n, double p)
+        //      Sales_data(const std::string &s, unsigned n)
+        cout << endl;
+
+        cout << "sd4:" << endl;
+        Sales_data sd4("dink", 6, 4.1);
+        //      Sales_data(const std::string &s, unsigned n, double p)
+        cout << endl;
+
+        cout << "sd5:" << endl;
+        Sales_data sd5(cin);
+        //      Sales_data(const std::string &s, unsigned n, double p)
+        //      Sales_data()
+        //      Sales_data(std::istream &is)
+        cout << endl;
+    }
+
+    C balls;
+    vector<C> vec(10);
+    string null_isbn("9-99");
+    Sales_data item1(null_isbn);
+    Sales_data item2("9-999");
+
+    Sales_data i;
+    string s;
+
+    // ex. 7.49 pg 385
+    // i.combine(s);
+
+    // Sales_data &combine(Sales_data);
+    //      Parameter is pass by value, temp Sales_data is
+    //      implicitly created from the string s
+    //      data members of temp Sales_data are default initialized
+    //      units_sold and revenue will both be 0
+    //      returns a reference to i
+
+    // Sales_data &combine(Sales_data&);
+    //      Parameter is passed by reference
+
+    // Sales_data &combine(const Sales_data&) const;
+    //      Parameter is passed by reference
+    //      Parameter and object that was called on are const
+    //      so members cannot be changed
+
 
     return EXIT_SUCCESS;
 }
